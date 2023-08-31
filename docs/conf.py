@@ -3,7 +3,7 @@ import os
 import sys
 import django
 sys.path.insert(0, os.path.abspath('..'))
-os.environ['DJANGO_SETTINGS_MODULE'] = 'django.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'mySite.settings'
 django.setup()
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -12,7 +12,7 @@ django.setup()
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'django'
+project = 'mySite'
 copyright = "2023, Deandre'"
 author = "Deandre'"
 release = '00.00.01'
@@ -33,5 +33,5 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
