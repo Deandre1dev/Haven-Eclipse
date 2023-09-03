@@ -16,7 +16,7 @@ def user_login(request):
 def authenticate_user(request):
     """Checks if the user exist in the database
 
-        :return: If the user is authenticated show thier account information, else redirect them to the login page
+    :return: If the user is authenticated show thier account information, else redirect them to the login page
     """
     username = request.POST['username']
     password = request.POST['password']

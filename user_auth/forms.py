@@ -9,8 +9,8 @@ from django.contrib.auth.models import User
 class NewUserForm(UserCreationForm):
 	"""NewUserForm creates a for for a new user to register
 
-		:param first_name: A field to include the users first name in the form
-		:param fields: A list of fields that are included in the form in the order specified
+	:param first_name: A field to include the users first name in the form
+	:param fields: A list of fields that are included in the form in the order specified
 	"""
 	first_name = forms.CharField(max_length=5000)
 
