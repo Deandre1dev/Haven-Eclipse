@@ -10,6 +10,7 @@ from django.contrib import messages
 def user_login(request):
     """Renders a login page for the user
     """
+
     return render(request, 'authentication/login.html')
 
 #  This veiw is used to authenticate and check if the user already exists.
@@ -18,6 +19,7 @@ def authenticate_user(request):
 
     :return: If the user is authenticated show thier account information, else redirect them to the login page
     """
+
     username = request.POST['username']
     password = request.POST['password']
     user = authenticate(username=username, password=password)
@@ -34,6 +36,7 @@ def authenticate_user(request):
 def show_user(request):
     """Renders a html template with the users information
     """
+
     print(request.user.username)
     return render(request, 'authentication/user.html', {
         "username": request.user.username,
@@ -57,6 +60,7 @@ def register_request(request):
 def user_logout(request):
     """This function logs a user out
     """
+    
     logout(request)
     messages.success(request, ("You were successfully logged"))
     return render(request, 'authentication/logout.html')

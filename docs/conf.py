@@ -5,7 +5,6 @@ import django
 sys.path.insert(0, os.path.abspath('..'))
 os.environ['DJANGO_SETTINGS_MODULE'] = 'mySite.settings'
 django.setup()
-#
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
@@ -13,8 +12,8 @@ django.setup()
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'mySite'
-copyright = "2023, Deandre'"
-author = "Deandre'"
+copyright = '2023, Deandre'
+author = 'Deandre'
 release = '00.00.01'
 
 # -- General configuration ---------------------------------------------------

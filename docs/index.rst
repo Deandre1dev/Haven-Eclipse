@@ -1,9 +1,9 @@
-.. django documentation master file, created by
-   sphinx-quickstart on Wed Aug 30 14:56:04 2023.
+.. mySite documentation master file, created by
+   sphinx-quickstart on Mon Sep  4 10:46:58 2023.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to django's documentation!
+Welcome to mySite's documentation!
 ==================================
 
 .. toctree::
@@ -11,7 +11,6 @@ Welcome to django's documentation!
    :caption: Contents:
 
    modules
-
 
 Indices and tables
 ==================
