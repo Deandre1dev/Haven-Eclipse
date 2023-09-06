@@ -1,3 +1,6 @@
+"""
+The views for the user_auth application.
+"""
 from django.shortcuts import render, redirect
 from .forms import NewUserForm
 from django.contrib.auth import authenticate, login, logout
