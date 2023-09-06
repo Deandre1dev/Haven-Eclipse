@@ -1,3 +1,6 @@
+"""
+The module for all url paths for the user_auth application.
+"""
 from django.urls import path
 from . import views
 

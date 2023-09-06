@@ -1,5 +1,5 @@
 """
-The views for the user_auth application.
+The module that creates views for the user_auth application.
 """
 from django.shortcuts import render, redirect
 from .forms import NewUserForm

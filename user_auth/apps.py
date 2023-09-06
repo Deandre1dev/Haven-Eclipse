@@ -1,3 +1,6 @@
+"""
+The app config module for the user_auth application.
+"""
 from django.apps import AppConfig
 
 
