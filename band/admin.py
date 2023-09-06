@@ -1,3 +1,6 @@
+"""
+This module allows the admin user to register their models they have created for the band application.
+"""
 from django.contrib import admin
 from.models import MusicItem
 from.models import TourItem

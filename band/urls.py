@@ -1,3 +1,6 @@
+"""
+This module is used to create url paths that link to the views in the band application.
+"""
 from django.urls import path
 from.import views
 
